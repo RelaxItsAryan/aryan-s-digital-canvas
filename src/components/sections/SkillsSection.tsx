@@ -5,11 +5,11 @@ const skills = [
   { name: 'HTML5', level: 95, color: '#E34F26' },
   { name: 'CSS3', level: 92, color: '#1572B6' },
   { name: 'JavaScript', level: 90, color: '#F7DF1E' },
-  { name: 'TypeScript', level: 85, color: '#3178C6' },
-  { name: 'React', level: 88, color: '#61DAFB' },
-  { name: 'Three.js / WebGL', level: 80, color: '#000000' },
-  { name: 'GSAP Animations', level: 85, color: '#88CE02' },
-  { name: 'Tailwind CSS', level: 92, color: '#06B6D4' },
+  { name: 'Python', level: 85, color: '#3178C6' },
+  { name: 'C++', level: 88, color: '#61DAFB' },
+  { name: 'Three.js / WebGL', level: 80, color: '#f3eaeaff' },
+  { name: 'Godot Engine', level: 85, color: '#88CE02' },
+  { name: 'Canva & Figma', level: 92, color: '#06B6D4' },
   { name: 'Git & Deployment', level: 88, color: '#F05032' },
   { name: 'UI/UX Design', level: 82, color: '#FF61F6' },
 ];
@@ -53,7 +53,7 @@ export const SkillsSection = () => {
           >
             {/* Center circle */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full glass-card flex items-center justify-center z-10">
-              <span className="font-display text-2xl font-bold text-gradient">A</span>
+              <span className="font-display text-2xl font-bold text-gradient">WEB</span>
             </div>
 
             {/* Orbit rings */}

@@ -4,27 +4,27 @@ import { Calendar, Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Creative Front-end Developer',
-    company: 'Freelance',
-    period: '2023 - Present',
+    title: 'Front-end Developer Intern',
+    company: 'Cognifyz Technologies',
+    period: 'Dec 2025 - Present',
     description: 'Building immersive web experiences with cutting-edge animations and 3D graphics. Specializing in interactive portfolios, creative websites, and WebGL applications.',
-    skills: ['React', 'Three.js', 'GSAP', 'WebGL'],
+    skills: ['HTML', 'CSS', 'React', 'JavaScript', 'Website Building'],
     color: 'primary'
   },
   {
-    title: 'UI/UX Developer',
-    company: 'Personal Projects',
-    period: '2022 - 2023',
+    title: 'Web Developer Intern',
+    company: 'Abhyaz MTAB Technologies',
+    period: 'OCT 2025 - DEC 2025',
     description: 'Developed multiple interactive web applications focusing on user experience and creative animations. Created unique particle systems and visual effects.',
-    skills: ['JavaScript', 'CSS Animations', 'Canvas API'],
+    skills: ['Zoho Tools', 'UI/UX Design', 'Canva'],
     color: 'secondary'
   },
   {
-    title: 'Web Development Journey',
-    company: 'Self-taught',
-    period: '2021 - 2022',
-    description: 'Started my journey into web development, mastering HTML, CSS, and JavaScript fundamentals. Built foundational projects and learned modern frameworks.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
+    title: 'College Journey',
+    company: 'Vellore Institute of Technology, Bhopal',
+    period: '2025 - 2029',
+    description: 'Currently pursuing a Bachelor\'s degree in Computer Science and Engineering with specialiazation in Artificial Intelligence and Machine Learning. Engaged in various projects and hackathons, honing my skills in web development and creative coding.',
+    skills: ['Communication', 'Time Management', 'Team Work', 'Problem Solving'],
     color: 'accent'
   }
 ];

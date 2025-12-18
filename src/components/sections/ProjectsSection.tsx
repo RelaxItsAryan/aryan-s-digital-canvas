@@ -8,45 +8,45 @@ const projects = [
     description: 'A music-themed interactive website with stunning audio visualizations and immersive animations.',
     icon: Music,
     color: '#00f0ff',
-    tags: ['JavaScript', 'Web Audio API', 'Canvas'],
-    link: '#',
-    github: '#'
+    tags: ['HTML', 'CSS', 'UI', 'Animations'],
+    link: 'https://aryanbeats.netlify.app/',
+    github: 'https://github.com/RelaxItsAryan/Alan-Walker-Music-Player.git'
   },
   {
     title: 'OpenNotes Hub',
     description: 'A collaborative notes sharing platform for students and professionals to share knowledge.',
     icon: FileText,
     color: '#a855f7',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    link: '#',
-    github: '#'
+    tags: ['HTML', 'CSS', 'Javascript'],
+    link: 'https://opennotes-hub.netlify.app/',
+    github: 'https://github.com/RelaxItsAryan/Open-Notes-Hub.git'
   },
   {
     title: 'Interview Buddy',
     description: 'An AI-powered interview preparation tool with practice questions and feedback.',
     icon: Users,
     color: '#3b82f6',
-    tags: ['React', 'AI/ML', 'TypeScript'],
-    link: '#',
-    github: '#'
+    tags: ['HTML/CSS', 'AI/ML', 'JavaScript'],
+    link: 'https://interview-buddy.netlify.app/',
+    github: 'https://github.com/RelaxItsAryan/Interview-Prep-Buddy.git'
   },
   {
     title: 'AryanVerse Particles',
-    description: 'Interactive particle animation showcase with mouse-responsive effects and customizable parameters.',
+    description: 'Interactive particle animation showcase with hand gesture effects and customizable parameters.',
     icon: Sparkles,
     color: '#f43f5e',
-    tags: ['Three.js', 'WebGL', 'GLSL'],
-    link: '#',
-    github: '#'
+    tags: ['Three.js', 'WebGL', 'JavaScript'],
+    link: 'https://aryanverseparticles.netlify.app/',
+    github: 'https://github.com/RelaxItsAryan/Particle-Controller.git'
   },
   {
     title: 'Aryan Name Particles',
     description: 'Custom particle-based text animation that morphs your name into stunning visual effects.',
     icon: Type,
     color: '#22c55e',
-    tags: ['Canvas API', 'JavaScript', 'Particles'],
-    link: '#',
-    github: '#'
+    tags: ['HTML/CSS','three.js', 'JavaScript', 'Particles'],
+    link: 'https://aryan-name-particles.netlify.app/',
+    github: 'https://github.com/RelaxItsAryan/Particle-Text-Morphing.git'
   }
 ];
 

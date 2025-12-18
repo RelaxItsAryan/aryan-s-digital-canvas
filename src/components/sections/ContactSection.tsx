@@ -5,9 +5,8 @@ import { toast } from 'sonner';
 
 const socialLinks = [
   { icon: Github, href: '#', label: 'GitHub', color: '#ffffff' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn', color: '#0077B5' },
-  { icon: Twitter, href: '#', label: 'Twitter', color: '#1DA1F2' },
-  { icon: Mail, href: 'mailto:aryan@example.com', label: 'Email', color: '#EA4335' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/aryan-amit-arya', label: 'LinkedIn', color: '#0077B5' },
+  { icon: Mail, href: 'aryanarya5507@gmail.com', label: 'Email', color: '#EA4335' },
 ];
 
 export const ContactSection = () => {
@@ -44,7 +43,7 @@ export const ContactSection = () => {
           <span className="text-primary text-sm tracking-[0.3em] uppercase font-medium">Get In Touch</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mt-4 text-gradient">Contact</h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
-            Have a project in mind or just want to say hi? Feel free to reach out!
+            Wanna Connect with me? Feel free to reach out!
           </p>
         </motion.div>
 
@@ -68,7 +67,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">India</p>
+                  <p className="font-medium">Bhopal, Madhya Pradesh, India</p>
                 </div>
               </div>
 
@@ -78,7 +77,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">aryan@example.com</p>
+                  <p className="font-medium">aryanarya5507@gmail.com</p>
                 </div>
               </div>
             </div>

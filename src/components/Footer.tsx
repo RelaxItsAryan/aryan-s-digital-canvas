@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <a href="#" className="font-display text-xl font-bold text-gradient">
-            Aryan.dev
+            Aryan Amit Arya
           </a>
 
           {/* Copyright */}
@@ -18,7 +18,7 @@ export const Footer = () => {
             transition={{ delay: 0.5 }}
             className="text-sm text-muted-foreground flex items-center gap-2"
           >
-            Made with <Heart className="w-4 h-4 text-primary fill-primary" /> by Aryan
+            Learning & Growing more Day by Day 💻
           </motion.p>
 
           {/* Year */}
