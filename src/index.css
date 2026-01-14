@@ -1,3 +1,7 @@
+/* Overlay blur for background when scrolling past hero section */
+.backdrop-blur-[6px] {
+  backdrop-filter: blur(6px);
+}
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 @tailwind base;
@@ -22,7 +26,7 @@
     --secondary-foreground: 210 40% 98%;
 
     --muted: 240 15% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted-foreground: 210 40% 90%;
 
     --accent: 220 90% 56%;
     --accent-foreground: 210 40% 98%;
@@ -60,6 +64,7 @@
   .dark {
     --background: 240 15% 5%;
     --foreground: 210 40% 98%;
+    --muted-foreground: 210 40% 90%;
   }
 }
 
@@ -73,8 +78,17 @@
   }
 
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply text-foreground antialiased font-bold;
     font-family: 'Space Grotesk', sans-serif;
+    background: url('/BG.png') center center/cover no-repeat fixed, hsl(var(--background));
+    color: #fff;
+    text-shadow: 0 0 2px #fff8;
+  }
+
+  h1, h2, h3, h4 {
+    font-weight: 900 !important;
+    letter-spacing: 0.01em;
+    text-shadow: 0 0 6px #fff8;
   }
 
   ::selection {

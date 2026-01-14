@@ -34,7 +34,7 @@ export const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="font-display text-2xl font-bold text-gradient">
+        <a href="#" className="font-display text-2xl font-extrabold text-gradient text-neutral-900 dark:text-neutral-100">
           ARYAN AMIT ARYA
         </a>
 

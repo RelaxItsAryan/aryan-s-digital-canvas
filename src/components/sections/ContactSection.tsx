@@ -4,9 +4,9 @@ import { Send, Mail, Github, Linkedin, Twitter, MapPin } from 'lucide-react';
 import { toast } from 'sonner';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub', color: '#ffffff' },
+  { icon: Github, href: 'https://github.com/RelaxItsAryan', label: 'GitHub', color: '#ffffff' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/aryan-amit-arya', label: 'LinkedIn', color: '#0077B5' },
-  { icon: Mail, href: 'aryanarya5507@gmail.com', label: 'Email', color: '#EA4335' },
+  { icon: Mail, href: 'https://mail.google.com/mail/?view=cm&fs=1&to=aryanarya5507@gmail.com', label: 'Email', color: '#EA4335' },
 ];
 
 export const ContactSection = () => {

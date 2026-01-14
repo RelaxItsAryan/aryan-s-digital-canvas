@@ -9,8 +9,8 @@ const techStack = [
   { name: 'JavaScript', color: '#F7DF1E' },
   { name: 'Python', color: '#3178C6' },
   { name: 'C++', color: '#61DAFB' },
-  { name: 'GDScript', color: '#88CE02' },
-  { name: 'Godot', color: '#06B6D4' },
+  { name: 'React.js', color: '#88CE02' },
+  { name: 'Tailwind', color: '#06B6D4' },
   { name: 'UI/UX', color: '#61DAFB' },
 ];
 

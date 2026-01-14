@@ -7,9 +7,13 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
-          <a href="#" className="font-display text-xl font-bold text-gradient">
-            Aryan Amit Arya
-          </a>
+<a
+  href="#"
+  className="font-logo text-xl uppercase tracking-[0.12em] text-gradient font-extrabold text-neutral-900 dark:text-neutral-100"
+>
+  Aryan Amit Arya
+</a>
+
 
           {/* Copyright */}
           <motion.p

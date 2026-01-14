@@ -63,7 +63,7 @@ export const HeroSection = () => {
         >
           <a
             href="#projects"
-            className="group relative px-8 py-4 bg-primary/10 border border-primary/50 rounded-lg font-medium text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--neon-cyan)/0.5)] min-w-[180px]"
+            className="group relative px-8 py-4 bg-primary/10 border border-primary/50 rounded-lg font-bold text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--neon-cyan)/0.5)] min-w-[180px]"
           >
 
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />

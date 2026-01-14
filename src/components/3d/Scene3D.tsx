@@ -25,8 +25,7 @@ export const Scene3D = () => {
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: true }}
       >
-        <color attach="background" args={['#0a0a0f']} />
-        <fog attach="fog" args={['#0a0a0f', 10, 30]} />
+        {/* Transparent background, no fog color */}
         <ambientLight intensity={0.2} />
         <Suspense fallback={null}>
           <ParticleField count={1500} mouse={mouse} />

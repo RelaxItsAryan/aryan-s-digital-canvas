@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { ExternalLink, Github, Music, FileText, Users, Sparkles, Type } from 'lucide-react';
+import { ExternalLink, Github, Music, FileText, Users, Sparkles, Type, Car } from 'lucide-react';
 
 const projects = [
   {
@@ -22,7 +22,7 @@ const projects = [
     github: 'https://github.com/RelaxItsAryan/Open-Notes-Hub.git'
   },
   {
-    title: 'Interview Buddy',
+    title: 'Interview Prep Buddy',
     description: 'An AI-powered interview preparation tool with practice questions and feedback.',
     icon: Users,
     color: '#3b82f6',
@@ -40,14 +40,24 @@ const projects = [
     github: 'https://github.com/RelaxItsAryan/Particle-Controller.git'
   },
   {
-    title: 'Aryan Name Particles',
+    title: 'Particle Text Morphing',
     description: 'Custom particle-based text animation that morphs your name into stunning visual effects.',
     icon: Type,
     color: '#22c55e',
     tags: ['HTML/CSS','three.js', 'JavaScript', 'Particles'],
-    link: 'https://aryan-name-particles.netlify.app/',
+    link: 'https://particle-text-morphing.vercel.app/',
     github: 'https://github.com/RelaxItsAryan/Particle-Text-Morphing.git'
+  },
+  {
+    title: 'Desert Runner',
+    description: 'A desert car runner game made with three.js, gsap, WebGL animations, no gaming development engine was used.',
+    icon: Car,
+    color: '#b4d50d',
+    tags: ['HTML/CSS','three.js', 'JavaScript','WebGL','React','Tailwind', 'Vite'],
+    link: 'https://desert-runner-still-loading.netlify.app/',
+    github: 'https://github.com/RelaxItsAryan/caravan-journey.git'
   }
+
 ];
 
 const ProjectCard = ({ project, index, isInView }: { project: typeof projects[0]; index: number; isInView: boolean }) => {
@@ -178,6 +188,19 @@ export const ProjectsSection = () => {
           {projects.map((project, index) => (
             <ProjectCard key={project.title} project={project} index={index} isInView={isInView} />
           ))}
+        </div>
+
+        {/* View More Projects Button */}
+        <div className="flex justify-center mt-10">
+          <a
+            href="https://github.com/RelaxItsAryan?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative px-8 py-4 bg-primary/10 border border-primary/50 rounded-lg font-bold text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--neon-cyan)/0.5)] min-w-[180px]"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
+            <span className="relative z-10 group-hover:text-primary-foreground">View More Projects</span>
+          </a>
         </div>
       </div>
     </section>

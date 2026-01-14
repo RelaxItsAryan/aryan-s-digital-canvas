@@ -2,6 +2,9 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const skills = [
+  { name: 'React.js', level: 75, color: '#6B7280' },
+  { name: 'Tailwind CSS', level: 81, color: '#38BDF8' },
+  { name: 'TypeScript', level: 76, color: '#3178C6' },
   { name: 'HTML5', level: 95, color: '#E34F26' },
   { name: 'CSS3', level: 92, color: '#1572B6' },
   { name: 'JavaScript', level: 90, color: '#F7DF1E' },
